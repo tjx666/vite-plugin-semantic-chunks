@@ -1,0 +1,16 @@
+{
+    "name": "app",
+    "scripts": {
+        "dev": "vite",
+        "build": "rimraf -rf dist && vite build"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "vue": "^3.3.4"
+    },
+    "devDependencies": {
+        "@types/lodash": "4.14.195",
+        "@vitejs/plugin-vue": "^4.2.3",
+        "vite-plugin-semantic-chunks": "workspace:*"
+    }
+}
