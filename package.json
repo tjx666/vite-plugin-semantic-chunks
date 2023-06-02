@@ -57,7 +57,7 @@
     },
     "devDependencies": {
         "@types/node": "^18.16.16",
-        "@yutengjing/eslint-config-typescript": "^0.4.1",
+        "@yutengjing/eslint-config-vue": "^0.4.1",
         "@yutengjing/prettier-config": "^0.0.1",
         "bumpp": "^9.1.0",
         "eslint": "^8.41.0",
