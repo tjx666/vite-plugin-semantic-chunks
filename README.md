@@ -2,7 +2,9 @@
 
 [![Unit Test](https://github.com/tjx666/vite-plugin-semantic-chunks/actions/workflows/unit-test.yml/badge.svg)](https://github.com/tjx666/vite-plugin-semantic-chunks/actions/workflows/unit-test.yml)
 
-Starter template for [unplugin](https://github.com/unjs/unplugin).
+generate semantic chunks
+
+![effect](docs/effect.png)
 
 ## Installation
 
