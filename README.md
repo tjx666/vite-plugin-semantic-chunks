@@ -1,6 +1,6 @@
-# vite-plugin-semantic-chunks [![npm](https://img.shields.io/npm/v/unplugin.svg)](https://npmjs.com/package/unplugin)
+# vite-plugin-semantic-chunks
 
-[![Unit Test](https://github.com/tjx666/vite-plugin-semantic-chunks/actions/workflows/unit-test.yml/badge.svg)](https://github.com/tjx666/vite-plugin-semantic-chunks/actions/workflows/unit-test.yml)
+[![npm](https://img.shields.io/npm/v/vite-plugin-semantic-chunks.svg)](https://npmjs.com/package/vite-plugin-semantic-chunks) [![downloads](https://img.shields.io/npm/dw/vite-plugin-semantic-chunks)](https://npmjs.com/package/vite-plugin-semantic-chunks) [![Unit Test](https://github.com/tjx666/vite-plugin-semantic-chunks/actions/workflows/unit-test.yml/badge.svg)](https://github.com/tjx666/vite-plugin-semantic-chunks/actions/workflows/unit-test.yml)
 
 generate semantic chunks
 
