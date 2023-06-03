@@ -26,8 +26,8 @@ export default function vitePluginSematicChunks(): Plugin {
                     rollupOptions: {
                         output: {
                             entryFileNames(chunkInfo) {
-                                const pkgNameAndDir = getChunkPkgName(chunkInfo.facadeModuleId);
-                                return `js/worker/${pkgNameAndDir}[name]-[hash].js.js`;
+                                const pkgName = getChunkPkgName(chunkInfo.facadeModuleId);
+                                return `js/worker/${pkgName}[name]-[hash].js.js`;
                             },
                         },
                     },
@@ -50,6 +50,7 @@ export default function vitePluginSematicChunks(): Plugin {
                             },
                             chunkFileNames(chunkInfo) {
                                 const namespaces: string[] = [];
+
                                 if (chunkInfo.isDynamicEntry) {
                                     namespaces.push('dynamic');
                                 } else {
